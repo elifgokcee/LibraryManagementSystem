@@ -1,0 +1,26 @@
+﻿
+@model LibraryManagementSystem.MVCWebUI.PublisherListViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @foreach (var publishers in Model.Publishers)
+        {
+            <div>@publishers.PublisherID</div>
+
+            <div>@publishers.PublisherName</div>
+           
+            <br />
+        }
+    </div>
+</body>
+</html>

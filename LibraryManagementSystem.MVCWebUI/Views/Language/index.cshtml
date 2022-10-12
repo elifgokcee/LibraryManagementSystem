@@ -1,0 +1,29 @@
+﻿
+@model LibraryManagementSystem.MVCWebUI.LanguageListViewModel
+@{
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @foreach (var languages in Model.Languages)
+        {
+            <div>@languages.LanguageName</div>
+
+            <div>@languages.LanguageID</div>
+            
+
+            <br />
+        }
+    </div>
+</body>
+</html>

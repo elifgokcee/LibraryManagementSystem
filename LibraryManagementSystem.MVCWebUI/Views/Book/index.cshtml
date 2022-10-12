@@ -1,0 +1,22 @@
+﻿@model LibraryManagementSystem.MVCWebUI.BookListViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+<body>
+    <div>
+        @foreach (var book in Model.Books)
+        {
+            @book.Title
+
+            <br />
+        }
+    </div>
+</body>
+</html>
+

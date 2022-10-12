@@ -1,0 +1,27 @@
+﻿@model LibraryManagementSystem.MVCWebUI.UserListViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @foreach (var user in Model.Users)
+        {
+            <div>@user.Role</div>
+
+            <div>@user.UserName.</div>
+            <div>@user.Password</div>
+
+            <br />
+        }
+    </div>
+</body>
+</html>

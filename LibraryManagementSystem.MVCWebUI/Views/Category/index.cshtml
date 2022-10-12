@@ -1,0 +1,27 @@
+﻿@model LibraryManagementSystem.MVCWebUI.CategoryListViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @foreach (var categories in Model.Categories)
+        {
+            <div>@categories.CategoryID</div>
+            <div>@categories.CategoryName</div>
+
+           
+
+            <br />
+        }
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+C:\Users\Win10\source\repos\LibraryManagementSystem\LİbraryManagement.System.WCFService\bin\LİbraryManagement.System.WCFService.dll.config
+C:\Users\Win10\source\repos\LibraryManagementSystem\LİbraryManagement.System.WCFService\bin\LİbraryManagement.System.WCFService.dll
+C:\Users\Win10\source\repos\LibraryManagementSystem\LİbraryManagement.System.WCFService\bin\LİbraryManagement.System.WCFService.pdb
+C:\Users\Win10\source\repos\LibraryManagementSystem\LİbraryManagement.System.WCFService\obj\Debug\LİbraryManagement.System.WCFService.csproj.AssemblyReference.cache
+C:\Users\Win10\source\repos\LibraryManagementSystem\LİbraryManagement.System.WCFService\obj\Debug\LİbraryManagement.System.WCFService.csproj.CoreCompileInputs.cache
+C:\Users\Win10\source\repos\LibraryManagementSystem\LİbraryManagement.System.WCFService\obj\Debug\LİbraryManagement.System.WCFService.dll
+C:\Users\Win10\source\repos\LibraryManagementSystem\LİbraryManagement.System.WCFService\obj\Debug\LİbraryManagement.System.WCFService.pdb

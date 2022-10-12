@@ -1,0 +1,27 @@
+﻿
+@model  LibraryManagementSystem.MVCWebUI.AuthorListViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @foreach (var authors in Model.Authors)
+        {
+            <div>@authors.AuthorSurName</div>
+
+            <div>@authors.AuthorID</div>
+            <div>@authors.AuthorName</div>
+
+            <br />
+        }
+    </div>
+</body>
+</html>
